@@ -1,0 +1,96 @@
+body{
+  background-color: grey;
+}
+
+.personal-image {
+  width: 350px;
+  height: 350px;
+  margin-left: 10px;
+  align-items: center;
+  display: inline-block;
+  background-color: gray;
+  border-radius: 100px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  vertical-align: top;
+}
+.button-name{
+display: block;
+width: 200px;
+padding-left: 100px;
+align-items: center;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+}
+.upper-section{
+  align-content: center;
+  display: block;
+}
+.hamburger-menu{
+  width: 100px;
+  height: 30px;
+  margin-right: 1px;
+  padding-left: 500px;
+}
+.upper-section{
+  align-items: center;
+  display: grid;
+  vertical-align: center;
+}
+.image-button{
+  display: grid;
+  grid-template-columns: 350px 1fr;
+}
+.button-style{
+  background-color: lightslategray;
+  flex: 1;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+.image-style{
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+.paragraph-text{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.paragraph-style{
+  background-color: gray;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 5px;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid aliceblue;
+  padding: 10px;
+  margin-left: 10px;
+}
+.image-text{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  align-items: center;
+}
+.button-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 70px;
+}
+.image-parent{
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  text-align: center;
+}
+.image-testimonials{
+  display: grid;
+  border: 2px solid lightcyan;
+  text-align: center;
+}
